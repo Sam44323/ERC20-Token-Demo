@@ -9,7 +9,7 @@ Please install or have installed the following:
 
 ## Installation
 
-- [Install Brownie](https://eth-brownie.readthedocs.io/en/stable/install.html), if you haven't already. Here is a simple way to install brownie.
+- Install Brownie, if you haven't already. Here is a simple way to install brownie.
 
 ```bash
 pip install eth-brownie
