@@ -2,5 +2,8 @@ dependencies:
   - OpenZeppelin/openzeppelin-contracts@4.2.0
 compiler:
   solc:
-    remapping: -'@openzeppelin=OpenZeppelin/openzeppelin-contracts@4.2.0'
+    remappings:
+      - "@openzeppelin=OpenZeppelin/openzeppelin-contracts@4.2.0"
 dotenv: .env
+wallets:
+  from_key: ${PRIVATE_KEY}
